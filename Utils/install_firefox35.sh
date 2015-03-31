@@ -1,11 +1,11 @@
 # Author: Lalitha Rajanala
-# How to invoke : bash install_firefox35.sh <path to directory>
-# Example: bash install_firefox35.sh /home/user/firefox35
-# 
+# How to invoke : sudo bash install_firefox35.sh <path to directory>
+# Example: sudo bash install_firefox35.sh /home/user/firefox35
+# Run this as sudo user 
 #
 
 directory=$1
-if [ -d $1]
+if [ -d $1];
 then
 if [ -f $1/firefox-35.0.tar.bz2 ];
 then
