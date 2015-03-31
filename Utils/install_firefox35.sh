@@ -5,7 +5,7 @@
 #
 
 directory=$1
-if [ -d $1];
+if [ -d $1 ];
 then
 if [ -f $1/firefox-35.0.tar.bz2 ];
 then
